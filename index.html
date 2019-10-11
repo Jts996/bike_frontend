@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link href="fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet">
+
+    <link href="public_html/css/navbar.css" rel="stylesheet">
+    <link href="public_html/css/index.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <div id="nav" class="nav">
+            <button id="openMenu" class="openMenu"><i class="fas fa-bars"></i></button>
+            <div id ="navLinks" class="navLinks">
+                <button id="closeNav"  class="muted-button closeNav"><i class="fas fa-times"></i></button>
+                <ul>
+                    <li class="option">
+                        <button id="index" onclick="window.location=  'index.php';"><i class="fas fa-home"></i>Home</button>
+                    </li>
+                    <li class="option">
+                        <button id="tickets" onclick="window.location=  'tickets.php';"><i class="fas fa-bicycle"></i>rent</button>
+                    </li>
+                    <li class="option">
+                        <button id="profile" onclick="window.location= '../../../profile.php';"><i class="fas fa-user"></i>Profile</button>
+                    </li>
+                    <li class="option">
+                        <button onclick="window.location= 'resources/php/logout.php';"><i class="fas fa-sign-out-alt"></i>Logout</button>
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="how-to-section">
+        <h2>How To</h2>
+        <div class="instructions">
+
+            <div id="find-bike" class="widget">
+                <i class="fas fa-bicycle"></i>
+                <h3>Find a bike at one of our locations</h3>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div id="rent-bike" class="widget">
+                <i class="fas fa-biking"></i>
+                <h3>Enter code of the bike and then start using</h3>
+            </div>
+            <div class="arrow">
+                <i class="fas fa-arrow-right"></i>
+            </div>
+            <div id="return-bike" class="widget">
+                <i class="fas fa-undo"></i>
+                <h3>Return bike to any of our locations once finished with your ride :)</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.how-to-section {
+    margin-left: 75px;
+    margin-top: 25px;
+    color: #ff7043;
+    width: 100%;
+
+}
+
+.instructions{
+    display: inline-flex;
+    margin-left: 300px;
+}
+
+.widget{
+    box-shadow: 0 1px 2px #27576B;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px #27576B solid;
+    border-top: 5px #ff7043 solid;
+    padding: 5px 5px;
+    transition: 0.5s;
+}
+
+.widget:hover{
+    background: #9ccc65;
+}
+
+.how-to-section i{
+    font-size: 75px;
+}
+
+.enter-payment{
+    margin-left: 50px;
+}
+
+.arrow{
+    margin-top: 50px;
+    padding: 10px;
+}
