@@ -35,8 +35,13 @@
     </header>
 
 
-    <section id="map" style="width: 300px; height: 300px;">
 
+    <section class="rental-map" >
+        <div class="map-search">
+            <input id="location-search" class="location-search" type="text" placeholder="Enter your location">
+            <button id="showMap" style="margin-left: 100px;">Update Map</button>
+        </div>
+        <section class="map" id="map" style=" width: 94%; height: 400px;"></section>
     </section>
 
     <footer>
@@ -44,10 +49,35 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmoXHtBb8SuFv_OGlfuwKmTAFKKITUkQI&callback=initMap"
-            async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmoXHtBb8SuFv_OGlfuwKmTAFKKITUkQI"></script>
     <script type="text/javascript" src="public_html/javascript/jquery.googlemap.js"></script>
-    <script type="javascript" src="public_html/javascript/rental.js"></script>
+    <script type="text/javascript" src="public_html/javascript/rental.js">
+       /* $(function() {
+
+            $('#showMap').on("click", function () {
+                let location_search = $('#location-search').val();
+
+                let geocoder = new google.maps.Geocoder();
+                geocoder.geocode({'address': location_search}, function (results, status) {
+                   if (status === 'OK'){
+                       console.log(results);
+                        showMap(results);
+                   }
+
+                });
+            });
+
+            function showMap(position){
+                console.log("Longtitude: " + position.longitude + " latitude: " + position.latitude);
+                $("#map").googleMap({
+                    zoom: 10, // Initial zoom level (optional)
+                    coords: [position],
+                    type: "ROADMAP" // Map type (optional)
+                });
+            }
+
+        })*/
+    </script>
 
 </body>
 </html>

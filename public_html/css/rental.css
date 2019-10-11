@@ -1,0 +1,50 @@
+.rental-map{
+    position: absolute;
+    margin-left: 75px;
+    width: 100%;
+}
+
+.map-search{
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    height: 75px;
+    width: 300px;
+    background: #eeeeee;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.map-search input[type=text]{
+    position: absolute;
+    margin-left: 50px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+
+.map-search button{
+    position: absolute;
+    margin-top: 40px;
+    background: #ff7043;
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.map-search button:hover{
+    opacity: 0.5;
+}
+
+.map{
+    position: absolute;
+    margin-left: 0;
+    z-index: -2;
+    border: 1px #27576B solid;
+    border-top: 5px #ff7043 solid;
+    border-radius: 10px;
+}
