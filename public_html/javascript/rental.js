@@ -1,11 +1,14 @@
 function geocodeLocation(location){
+        var map = new google.maps.Map(document.getElementById('map'));
 
-    let geocoder = new google.maps.Geocoder();
+        if (navigator.geolocation){
 
-    geocoder.geocode({'address': location}, function (result, status) {
-
-        if (status === 'OK'){
-            console.log(result[0].geometry.location);
+            navigator.geolocation.getCurrentPosition(function (position) {
+               var pos = {
+                   lat: position.coords.latitude,
+                   lng: position.coords.longitude
+               }
+            });
 
             $('#map').googleMap({
                 zoom: 10,
