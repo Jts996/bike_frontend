@@ -1,6 +1,10 @@
-.rental-map{
+.rental-map, .bike-rental-forms{
     position: absolute;
-    margin-left: 75px;
+    margin-left: 80px;
+
+}
+
+.rental-map{
     width: 100%;
 }
 
@@ -36,7 +40,7 @@
     transition: 0.5s;
 }
 
-.map-search button:hover{
+button:hover{
     opacity: 0.5;
 }
 
@@ -44,7 +48,60 @@
     position: absolute;
     margin-left: 0;
     z-index: -2;
+
+}
+
+.map, .bike-rental-form{
     border: 1px #27576B solid;
     border-top: 5px #ff7043 solid;
     border-radius: 10px;
 }
+
+.bike-rental-forms{
+    position: absolute;
+    margin-top: 450px;
+    display: inline-flex;
+    text-align: center;
+    padding: 5px;
+    margin-left: 15%;
+}
+
+.widget{
+    box-shadow: 0 1px 2px #27576B;
+    min-width: 200px;
+    height: 200px;
+    color: #ff7043;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px #27576B solid;
+    border-top: 5px #ff7043 solid;
+    padding: 5px 5px;
+    transition: 0.5s;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.bike-form{
+    display: grid;
+    grid-row-gap: 10px;
+}
+
+.bike-form Button{
+    background: #ff7043;
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;;
+    margin: 0 auto;
+}
+
+.bike-form input[type=text]{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+

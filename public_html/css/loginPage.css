@@ -61,7 +61,7 @@ input[type=email], input[type=password], input[type=text]{
     border-radius: 10px;
     border: none;
     padding: 5px;
-    background: #81c784;
+    background: #ff7043;
     transition: 0.4s;
     cursor: pointer;
 }
