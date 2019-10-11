@@ -1,7 +1,8 @@
 .rental-map, .bike-rental-forms{
     position: absolute;
     margin-left: 80px;
-
+    font-style: oblique;
+    color: #ff7043;
 }
 
 .rental-map{
@@ -10,9 +11,9 @@
 
 .map-search{
     position: absolute;
-    top: 10px;
+    top: 85px;
     left: 40%;
-    height: 75px;
+    height: 85px;
     width: 300px;
     background: #eeeeee;
     border-radius: 10px;
@@ -23,6 +24,7 @@
     position: absolute;
     margin-left: 50px;
     width: 200px;
+    height: 30px;
     padding: 5px;
     border-radius: 10px;
     border: none;
@@ -31,7 +33,7 @@
 
 .map-search button{
     position: absolute;
-    margin-top: 40px;
+    margin-top: 45px;
     background: #ff7043;
     width: 75px;
     height: 25px;
@@ -59,7 +61,7 @@ button:hover{
 
 .bike-rental-forms{
     position: absolute;
-    margin-top: 450px;
+    margin-top: 500px;
     display: inline-flex;
     text-align: center;
     padding: 5px;
@@ -84,6 +86,7 @@ button:hover{
 .bike-form{
     display: grid;
     grid-row-gap: 10px;
+    margin-bottom: 5px;
 }
 
 .bike-form Button{
@@ -96,12 +99,15 @@ button:hover{
     margin: 0 auto;
 }
 
-.bike-form input[type=text]{
+.bike-form input[type=text], .bike-form select{
     width: 200px;
     height: 30px;
     padding: 5px;
     border-radius: 10px;
     border: none;
     margin-top: 5px;
+    background: #eeeeee;
+    opacity: 0.75;
 }
+
 
