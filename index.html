@@ -33,7 +33,7 @@
                         <button id="tickets" onclick="window.location=  'rent.html';"><i class="fas fa-bicycle"></i>rent</button>
                     </li>
                     <li class="option">
-                        <button id="profile" onclick="window.location= '../../../profile.html';"><i class="fas fa-user"></i>Profile</button>
+                        <button id="profile" onclick="window.location= 'profile.html';"><i class="fas fa-user"></i>Profile</button>
                     </li>
                     <li class="option">
                         <button onclick="window.location= 'resources/php/logout.html';"><i class="fas fa-sign-out-alt"></i>Logout</button>
@@ -45,35 +45,50 @@
         </div>
     </header>
 
+
     <section class="how-to-section">
-        <h2>How To</h2>
+        <h2>BonyBike Homepage</h2>
         <div class="instructions">
+
 
             <div id="find-bike" class="widget">
                 <i class="fas fa-bicycle"></i>
-                <h3>Find a bike at one of our locations</h3>
+                <h2>FIND A BIKE</h2>
+                <h4>Map search for a station...</h4>
             </div>
             <div class="arrow">
                 <i class="fas fa-arrow-right"></i>
             </div>
             <div id="rent-bike" class="widget">
                 <i class="fas fa-biking"></i>
-                <h3>Enter code of the bike and then start using</h3>
+                <h2>ENTER CODE</h2>
+                <h4>...ready to start using!</h4>
             </div>
             <div class="arrow">
                 <i class="fas fa-arrow-right"></i>
             </div>
             <div id="return-bike" class="widget">
                 <i class="fas fa-undo"></i>
-                <h3>Return bike to any of our locations once finished with your ride :)</h3>
+                <h2>RETURN BIKE</h2>
+                <h4>Done? Return the bike.</h4>
             </div>
         </div>
 
     </section>
 
-    <footer>
 
+    <footer id="footer">
+        <div class="copyright">
+            <p><strong>About Us: </strong>BonnyBike was founded in 2017 by Gareth Williams and Saoirse McGregor, two fellow students of the School of Computing Science of the University of Glasgow who wanted to make a business out of their 2 passions: Cycling and Glasgow. Since Glasgow has long been an established vibrant cycling city where cycling is accessible, safe and attractive to all, creating a business that moves the mentality of the citizens towards the same direction that has made Glasgow see surge in people taking up cycling in the last decade, we believe we continue this growth well into the present and the future.</p>
+            <p><strong>Contact Us: BonnyBike 22 Montrose Street G1 1RE, Glasgow</strong></p>
+            <a><strong>&copy; All rights reserved. Design: Team 1-k</strong></a>
+        </div>
     </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="public_html/javascript/profile1.js"></script>
+    <script type="text/javascript" src="public_html/javascript/profile2.js"></script>
 
 <script>
     includeNav();
